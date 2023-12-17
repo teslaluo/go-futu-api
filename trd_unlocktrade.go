@@ -27,7 +27,7 @@ func (api *FutuAPI) UnlockTrade(ctx context.Context, unlock bool, pwd string, fi
 			return err
 		}
 		s := (string)(h.Sum(nil))
-		hexStr := fmt.Sprintf("%x", s)
+		hexStr := fmt.Sprintf("%x", s) // 16进制小写
 		req.C2S.PwdMD5 = &hexStr
 	}
 	if firm != 0 {
