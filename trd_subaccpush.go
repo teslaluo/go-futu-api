@@ -3,8 +3,8 @@ package futuapi
 import (
 	"context"
 
-	"teslaluo/go-futu-api/pb/trdsubaccpush"
-	"teslaluo/go-futu-api/protocol"
+	"github.com/teslaluo/go-futu-api/pb/trdsubaccpush"
+	"github.com/teslaluo/go-futu-api/protocol"
 )
 
 const (

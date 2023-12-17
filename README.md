@@ -12,7 +12,7 @@
 1. import
 
     ```
-    import "teslaluo/go-futu-api"
+    import "github.com/teslaluo/go-futu-api"
     ```
 
 1. 创建API实例

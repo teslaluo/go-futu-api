@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"teslaluo/go-futu-api/pb/trdcommon"
-	"teslaluo/go-futu-api/pb/trdgetfunds"
-	"teslaluo/go-futu-api/protocol"
+	"github.com/teslaluo/go-futu-api/pb/trdcommon"
+	"github.com/teslaluo/go-futu-api/pb/trdgetfunds"
+	"github.com/teslaluo/go-futu-api/protocol"
 )
 
 const (

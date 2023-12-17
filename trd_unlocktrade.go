@@ -5,9 +5,9 @@ import (
 	"crypto/md5"
 	"fmt"
 
-	"teslaluo/go-futu-api/pb/trdcommon"
-	"teslaluo/go-futu-api/pb/trdunlocktrade"
-	"teslaluo/go-futu-api/protocol"
+	"github.com/teslaluo/go-futu-api/pb/trdcommon"
+	"github.com/teslaluo/go-futu-api/pb/trdunlocktrade"
+	"github.com/teslaluo/go-futu-api/protocol"
 )
 
 const (

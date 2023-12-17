@@ -7,8 +7,8 @@
 package trdgetmarginratio
 
 import (
-	qotcommon "teslaluo/go-futu-api/pb/qotcommon"
-	trdcommon "teslaluo/go-futu-api/pb/trdcommon"
+	qotcommon "github.com/teslaluo/go-futu-api/pb/qotcommon"
+	trdcommon "github.com/teslaluo/go-futu-api/pb/trdcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

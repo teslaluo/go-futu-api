@@ -1,7 +1,7 @@
 package futuapi
 
 import (
-	"teslaluo/go-futu-api/pb/common"
+	"github.com/teslaluo/go-futu-api/pb/common"
 )
 
 type ProgramStatus struct {

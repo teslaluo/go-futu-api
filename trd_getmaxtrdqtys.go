@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"teslaluo/go-futu-api/pb/trdcommon"
-	"teslaluo/go-futu-api/pb/trdgetmaxtrdqtys"
-	"teslaluo/go-futu-api/protocol"
+	"github.com/teslaluo/go-futu-api/pb/trdcommon"
+	"github.com/teslaluo/go-futu-api/pb/trdgetmaxtrdqtys"
+	"github.com/teslaluo/go-futu-api/protocol"
 )
 
 const (

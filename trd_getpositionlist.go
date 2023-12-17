@@ -3,8 +3,8 @@ package futuapi
 import (
 	"context"
 
-	"teslaluo/go-futu-api/pb/trdgetpositionlist"
-	"teslaluo/go-futu-api/protocol"
+	"github.com/teslaluo/go-futu-api/pb/trdgetpositionlist"
+	"github.com/teslaluo/go-futu-api/protocol"
 )
 
 const (

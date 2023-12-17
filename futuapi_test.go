@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"teslaluo/go-futu-api/pb/qotcommon"
+	"github.com/teslaluo/go-futu-api/pb/qotcommon"
 )
 
 func TestConnect(t *testing.T) {

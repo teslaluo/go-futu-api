@@ -1,6 +1,6 @@
 package futuapi
 
-import "teslaluo/go-futu-api/pb/trdcommon"
+import "github.com/teslaluo/go-futu-api/pb/trdcommon"
 
 type TrdAcc struct {
 	TrdEnv            trdcommon.TrdEnv       //交易环境，参见 TrdEnv 的枚举定义

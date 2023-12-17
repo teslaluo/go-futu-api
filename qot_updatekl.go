@@ -3,10 +3,10 @@ package futuapi
 import (
 	"context"
 
+	"github.com/teslaluo/go-futu-api/pb/qotcommon"
+	"github.com/teslaluo/go-futu-api/pb/qotupdatekl"
+	"github.com/teslaluo/go-futu-api/protocol"
 	"google.golang.org/protobuf/proto"
-	"teslaluo/go-futu-api/pb/qotcommon"
-	"teslaluo/go-futu-api/pb/qotupdatekl"
-	"teslaluo/go-futu-api/protocol"
 )
 
 const (

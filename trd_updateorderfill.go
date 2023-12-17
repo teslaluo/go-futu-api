@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
+	"github.com/teslaluo/go-futu-api/pb/trdupdateorderfill"
+	"github.com/teslaluo/go-futu-api/protocol"
 	"google.golang.org/protobuf/proto"
-	"teslaluo/go-futu-api/pb/trdupdateorderfill"
-	"teslaluo/go-futu-api/protocol"
 )
 
 const (

@@ -7,8 +7,8 @@
 package qotgetsubinfo
 
 import (
-	_ "teslaluo/go-futu-api/pb/common"
-	qotcommon "teslaluo/go-futu-api/pb/qotcommon"
+	_ "github.com/teslaluo/go-futu-api/pb/common"
+	qotcommon "github.com/teslaluo/go-futu-api/pb/qotcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
