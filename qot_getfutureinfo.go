@@ -51,6 +51,7 @@ type FutureInfo struct {
 	TradeTime          []*TradeTime //交易时间
 	TimeZone           string       //所在时区
 	ExchangeFormatURL  string       //交易所规格
+	Origin             *Security    // 实际合约代码
 }
 
 func futureInfoFromPB(pb *qotgetfutureinfo.FutureInfo) *FutureInfo {
@@ -75,6 +76,7 @@ func futureInfoFromPB(pb *qotgetfutureinfo.FutureInfo) *FutureInfo {
 		TradeTime:          tradeTimeListFromPB(pb.GetTradeTime()),
 		TimeZone:           pb.GetTimeZone(),
 		ExchangeFormatURL:  pb.GetExchangeFormatUrl(),
+		Origin:             securityFromPB(pb.GetOrigin()),
 	}
 }
 
