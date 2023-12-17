@@ -7,8 +7,8 @@
 package getglobalstate
 
 import (
-	common "github.com/hurisheng/go-futu-api/pb/common"
-	_ "github.com/hurisheng/go-futu-api/pb/qotcommon"
+	common "teslaluo/go-futu-api/pb/common"
+	_ "teslaluo/go-futu-api/pb/qotcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

@@ -3,6 +3,7 @@
 ## 简介
 
 * Go语言封装的[富途牛牛OpenAPI](https://openapi.futunn.com/futu-api-doc/)。
+* 本仓库基于https://github.com/hurisheng/go-futu-api的仓库进行修改，主要是修复其中遇到的BUG。
 * 尽量接近Python版本的使用方法。
 * 利用Go语言特性，例如channel，goroutine等。
 
@@ -11,7 +12,7 @@
 1. import
 
     ```
-    import "github.com/hurisheng/go-futu-api"
+    import "teslaluo/go-futu-api"
     ```
 
 1. 创建API实例

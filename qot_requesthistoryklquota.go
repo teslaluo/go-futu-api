@@ -3,8 +3,8 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotrequesthistoryklquota"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"teslaluo/go-futu-api/pb/qotrequesthistoryklquota"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (

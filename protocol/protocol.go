@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/hurisheng/go-futu-api/tcp"
 	"google.golang.org/protobuf/proto"
+	"teslaluo/go-futu-api/tcp"
 )
 
 type header struct {

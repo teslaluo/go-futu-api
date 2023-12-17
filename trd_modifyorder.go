@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/trdcommon"
-	"github.com/hurisheng/go-futu-api/pb/trdmodifyorder"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"teslaluo/go-futu-api/pb/trdcommon"
+	"teslaluo/go-futu-api/pb/trdmodifyorder"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (

@@ -3,16 +3,16 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotcommon"
-	"github.com/hurisheng/go-futu-api/pb/qotgetmarketstate"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"teslaluo/go-futu-api/pb/qotcommon"
+	"teslaluo/go-futu-api/pb/qotgetmarketstate"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (
 	ProtoIDQotGetMarketState = 3223 //Qot_GetMarketState	获取指定品种的市场状态
 )
 
-//获取标的市场状态
+// 获取标的市场状态
 func (api *FutuAPI) GetMarketState(ctx context.Context, securities []*Security) ([]*MarketInfo, error) {
 	// 请求参数
 	req := qotgetmarketstate.Request{

@@ -1,4 +1,4 @@
-module github.com/hurisheng/go-futu-api
+module teslaluo/go-futu-api
 
 go 1.14
 

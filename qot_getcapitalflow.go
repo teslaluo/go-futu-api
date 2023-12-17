@@ -3,15 +3,15 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotgetcapitalflow"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"teslaluo/go-futu-api/pb/qotgetcapitalflow"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (
 	ProtoIDQotGetCapitalFlow = 3211 //Qot_GetCapitalFlow	获取资金流向
 )
 
-//获取资金流向
+// 获取资金流向
 func (api *FutuAPI) GetCapitalFlow(ctx context.Context, security *Security) (*CapitalFlow, error) {
 	// 请求参数
 	req := qotgetcapitalflow.Request{

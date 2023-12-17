@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotupdatebroker"
-	"github.com/hurisheng/go-futu-api/protocol"
 	"google.golang.org/protobuf/proto"
+	"teslaluo/go-futu-api/pb/qotupdatebroker"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (

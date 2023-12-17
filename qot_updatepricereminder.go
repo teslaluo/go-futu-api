@@ -3,10 +3,10 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotcommon"
-	"github.com/hurisheng/go-futu-api/pb/qotupdatepricereminder"
-	"github.com/hurisheng/go-futu-api/protocol"
 	"google.golang.org/protobuf/proto"
+	"teslaluo/go-futu-api/pb/qotcommon"
+	"teslaluo/go-futu-api/pb/qotupdatepricereminder"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (

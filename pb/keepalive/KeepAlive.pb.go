@@ -7,7 +7,7 @@
 package keepalive
 
 import (
-	_ "github.com/hurisheng/go-futu-api/pb/common"
+	_ "teslaluo/go-futu-api/pb/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

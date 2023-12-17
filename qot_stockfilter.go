@@ -3,9 +3,9 @@ package futuapi
 import (
 	"context"
 
-	"github.com/hurisheng/go-futu-api/pb/qotcommon"
-	"github.com/hurisheng/go-futu-api/pb/qotstockfilter"
-	"github.com/hurisheng/go-futu-api/protocol"
+	"teslaluo/go-futu-api/pb/qotcommon"
+	"teslaluo/go-futu-api/pb/qotstockfilter"
+	"teslaluo/go-futu-api/protocol"
 )
 
 const (
